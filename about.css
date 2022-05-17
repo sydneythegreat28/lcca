@@ -4,6 +4,29 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.first_layer {
+
+  width:100vw;
+  display:flex;
+
+ 
+}
+
+.lcca_logo {
+  width:20%;
+
+
+}
+
+.lcca_name {
+  width:50%;
+  text-align: center;
+}
+
+.lucena_logo {
+  width:20%;
+}
 #logo {
 
   width: 100px;
