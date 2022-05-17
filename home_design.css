@@ -9,20 +9,20 @@ body {
 
 .first_layer {
 
-  width:95vw;
+  width:100vw;
   display:flex;
 
  
 }
 
 .lcca_logo {
-  width:35%;
+  width:20%;
 
 
 }
 
 .lcca_name {
-  width:30%;
+  width:60%;
   text-align: center;
 }
 
