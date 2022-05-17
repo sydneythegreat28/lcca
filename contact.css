@@ -3,12 +3,29 @@ body {
   padding: 0;
   margin: 0;
 }
-#logo {
+.first_layer {
 
-  width: 100px;
-  height: auto;
-  float:left;
+  width:100vw;
+  display:flex;
+
+ 
 }
+
+.lcca_logo {
+  width:20%;
+
+
+}
+
+.lcca_name {
+  width:50%;
+  text-align: center;
+}
+
+.lucena_logo {
+  width:20%;
+}
+
 
 
 .topnav {
