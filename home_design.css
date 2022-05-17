@@ -40,6 +40,7 @@ body {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  width:100vw;
   /*background-color:#482611;*/
 
   
