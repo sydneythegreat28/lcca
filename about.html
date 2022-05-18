@@ -18,35 +18,34 @@ background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;">
 
-
-
 <div class="first_layer">
 
 
   <div class="lcca_logo">
     
-    <img src="image/LCCA-logo.png" style="width:100px; height:100px; float:right;">
+    <img id="lcca_pc" src="image/LCCA-logo.png">
 
   </div>
 
   <div class="lcca_name">
       
-    <h1 class="h1" style="font-family:Sanchez; font-size:40px">Lucena Council for Culture and The Arts</h1>
+    <h1 id="lccca" class="h1">Lucena Council for Culture and The Arts</h1>
   </div>
 
   <div class="lucena_logo">
     
-    <img src="image/Lucenalogo.png" style="width:100px; height:80px; height:auto;">
+    <img id=lucena_pc src="image/Lucenalogo.png">
 
   </div>
-
-
+  
+  
 </div>
+
 
 <div class="topnav" id="myTopnav">
   
   
-  <a href="index.html" >Home</a>
+  <a  href="index.html" >Home</a>
   <a href="contact_us.html">Contact</a>
   <a href="about.html">About</a>
   <a href="#news">News</a>
@@ -55,12 +54,14 @@ background-repeat: no-repeat;
   </a>
 </div>
 
+
+
 <div style=" width: 70%; height: auto; margin-left: 15%; margin-top:5%; ">
 
 
 <div style="margin-left: 28%;">
-<img src="image/firstchairperson.PNG" style="  width:15%; height: auto; margin-top: 5%; border-radius:25%;">
-<img src="image/ernesto.PNG" style="  margin-left: 30%; width:15%; height:auto; margin-top:5%; border-radius:25%;">
+<img src="image/firstchairperson.PNG" style="  width:30px; height:30px; margin-top: 5%; border-radius:25%;">
+<img src="image/ernesto.PNG" style="  margin-left:30px; width:30px; height:auto; margin-top:5%; border-radius:25%;">
 </div>
 
 <div style="margin-left:26%; float:left;">
@@ -186,49 +187,32 @@ Bro. Willy Zoleta<br>
 
 
 
-<footer style="width: 100%; height:auto;  background-color:lightgrey; overflow:hidden;">
-  <br>
+<footer style="width:100vw; display:flex;  background-color:lightgrey;">
        
-       
-
-       <div style="float:left; margin-left:5%;">
-       <a href="index.html" style="text-decoration:none;  font-size:15px;"><p style=" margin-left:5%;">Home</p></a>
-       <a href="about.html" style="text-decoration:none;  font-size:15px;"><p style=" margin-left:5%;">About</p></a>
-       <a href="contact.html" style="text-decoration:none;  font-size:15px;"><p style=" margin-left:5%;">Contact</p></a>
-        <a href="contact.html" style="text-decoration:none;  font-size:15px;"><p style=" margin-left:5%;">Article</p></a>
-
-       </div>
-
-       <div style="float:left; width:20%; margin-left:0%; overflow:auto;">
+       <div style="width:30%; overflow:auto; text-align:center;  ">
 
        <!---- <img src="image/footer-email.png" style="width:15%; margin-left:20%; margin-top:0;  border-radius:25%; padding:0;">-->
 
-          <h3 style="font-size:25px; font-family:Sanchez;  margin-left:18%; margin-top:0;">Email us:</h3>
-          <p style="font-size:12px; font-family:Sanchez;  margin-left:18%;">LUCENACCA@gmail.com</p>
+          <h3 style="font-size:20px; font-family:Sanchez;   margin-top:0;">Email us:</h3>
+          <p style="font-size:12px; font-family:Sanchez;  ">LUCENACCA@gmail.com</p>
        </div>
 
-       <div style="float:left; margin-left:0; width:20%;">
 
+       <div style="width:30%; ;">
         <!----<img src="facebook.png" style="width:15%; margin-left:20%;  border-radius:25%; padding:0;">--->
-
-          <h3 style="font-size:25px; font-family:Sanchez;  margin-left:25%; margin-top:0;">Message us:</h3>
-          <a href="https://www.facebook.com/profile.php?id=100067530107434" style="text-decoration: none;"><p style="font-size:13px; font-family:Sanchez;  margin-left:25%;">Lucena Council for Culture and The Arts</p></a>
+          <h3 style="font-size:20px; font-family:Sanchez;  margin-left:20%; margin-top:0;">Message us:</h3>
+          <a href="https://www.facebook.com/profile.php?id=100067530107434" style="text-decoration: none;"><p style="font-size:10px; font-family:Sanchez;  margin-left:25%;">Lucena Council for Culture and The Arts</p></a>
        </div>
 
-       <div style="margin-left:30%; overflow:hidden;">
+        <div style="text-align:center; overflow:hidden;  width:30%;">
 
        <!---- <img src="call.png" style="width:3%; margin-top:0;  border-radius:25%; padding:0;">---->
-          <h3 style="font-size:25px; font-family:Sanchez;  margin-left:18%; margin-top:0;">Call us:</h3>
-          <p style="font-size:15px; font-family:Sanchez;  margin-left:18%;">0948-773-5086</p>
+          <h3 style="font-size:20px; font-family:Sanchez;  margin-left:18%; margin-top:0;">Call us:</h3>
+          <p style="font-size:10px; font-family:Sanchez;  margin-left:18%;">0948-773-5086</p>
        </div>
+      
 
-
-       <br>
-       <br>
-       <br>
-       <br>
-
-       <h3  style=" font-size:15px; font-family:Sanchez;  text-align: center;">LUCENA COUNCIL FOR CULTURE AND THE ARTS ©</h3>
+  
   
 
        
@@ -236,7 +220,13 @@ Bro. Willy Zoleta<br>
 
 
         </footer>
-        
+
+        <div style="background-color:lightgrey; width:100vw; display:flex; text-align:center;">
+          
+          <h3 style="margin-left:10%; font-size:10px; font-family:Sanchez;">LUCENA COUNCIL FOR CULTURE AND THE ARTS ©</h3>
+
+        </div>
+
 
 
 <script>
