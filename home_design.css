@@ -11,7 +11,7 @@ body {
   width:100vw;
   display:flex;
 
-  background-color:grey;
+  
 
  
 }
@@ -19,7 +19,7 @@ body {
 .lcca_logo {
   padding-top:3%;
 width:30%;
-background-color:red;
+
 
 }
 
@@ -29,7 +29,7 @@ background-color:red;
   padding-top:1%;
   width:40%;
   text-align: center;
-  background-color:purple;
+  
 }
 
 #lcca_pc {
@@ -75,7 +75,6 @@ background-color:red;
   float:left;
   display: block;
   color: #f2f2f2;
-  
   padding: 14px 16px;
   text-decoration: none;
   font-size: 15px;
@@ -112,8 +111,7 @@ background-color:red;
 
     position:none;
   }
-  
-  
+
 #lcca_pc {
   width:50px; 
   height:50px; 
@@ -134,15 +132,11 @@ background-color:red;
 
 
 }
-  .logo {
-  
-    font-size:6vw;
-  
-  }
 }
 
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -155,6 +149,9 @@ background-color:red;
     text-align: left;
   }
 }
+
+
+ 
 
 
 
@@ -173,7 +170,13 @@ box-shadow: 3px 3px #808080
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  
+.responsive img{
+
+  width:10%;
+}
+
 
 .taber{
 
@@ -200,3 +203,4 @@ height: 200px;
        font-size: 10px;
 
 }
+
