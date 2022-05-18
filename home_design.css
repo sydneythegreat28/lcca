@@ -23,6 +23,7 @@ body {
 }
 
 .lcca_name {
+  padding-top:1%;
   width:40%;
   text-align: center;
 }
